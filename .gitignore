@@ -125,6 +125,7 @@ uv.lock
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+temp_auto_push.bat
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
@@ -156,7 +157,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -196,7 +196,6 @@ cython_debug/
 .idea/
 
 # VSCode
-.vscode/
 
 # Claude
 .claude/*
@@ -254,3 +253,6 @@ vllm/grpc/vllm_engine_pb2.pyi
 
 # Ignore generated cpu headers 
 csrc/cpu/cpu_attn_dispatch_generated.h
+branch_structure.json
+config.bat
+node_modules
